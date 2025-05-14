@@ -660,6 +660,8 @@ The `R` type parameter makes dependencies explicit in your type signatures.
 -->
 
 ---
+transition: slide-up
+---
 
 # Effect Layers Explained
 
@@ -843,6 +845,8 @@ This clean architecture separates concerns and makes error handling explicit.
 -->
 
 ---
+transition: slide-up
+---
 
 # What We've Learned
 
@@ -915,6 +919,8 @@ Think of it this way: learning Effect might take a month, but will save you mont
 While it's not appropriate for every project, for complex applications with many moving parts, Effect's benefits far outweigh its drawbacks.
 -->
 
+---
+transition: slide-down
 ---
 
 # Advanced Effect Features to Explore
