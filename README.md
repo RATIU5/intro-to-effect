@@ -1,6 +1,6 @@
 # Introduction to Effect
 
-This is a sli.dev presentation built with [sli.dev](https://sli.dev) of an introduction to the Effect TypeScript library.
+This is an introduction to Effect built with [Slidev](https://github.com/slidevjs/slidev).
 
 ## Build Presentation
 
