@@ -1,11 +1,18 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Introduction to Effect
 
-To start the slide show:
+This is a sli.dev presentation built with [sli.dev](https://sli.dev) of an introduction to the Effect TypeScript library.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Build Presentation
 
-Edit the [slides.md](./slides.md) to see the changes.
+```sh
+pnpm install
+pnpm build
+```
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Serve the `dist/index.html` file.
+
+## Run Presentation (Development)
+
+```sh
+pnpm dev
+```
