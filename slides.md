@@ -309,7 +309,7 @@ Effect brings a functional approach to handling operations:
 console.log("Hello");
 
 // Effect: describes the action as a value
-const logEffect = Effect.sync(() => console.log("Hello"));
+const logEffect = Effect.sync(() => Console.log("Hello"));
 // Nothing happens until we run it
 ```
 
@@ -347,9 +347,8 @@ const success = Effect.succeed(42);
 // For representing errors
 const failure = Effect.fail(new Error("Something went wrong"));
 
-// For synchronous operations that might throw
+// For synchronous operations that won't throw
 const mayThrow = Effect.sync(() => {
-  if (Math.random() > 0.5) throw new Error("Bad luck");
   return "Success!";
 });
 
@@ -433,8 +432,8 @@ const program = pipe(
   Effect.map(n => n + 5)   // Transform again
 );
 
-// Result: Effect<string, never, never>
-// When run, returns "Result: 20"
+// Result: Effect<number, never, never>
+// When run, returns 25
 ```
 
 The `pipe` function passes the result of each operation to the next one.

@@ -34,7 +34,7 @@ const program = JokeClient.program.pipe(
 
 const AppLayer = JokeClient.layer.pipe(
   Layer.provide(NodeHttpClient.layer),
-  Layer.provide(Logger.minimumLogLevel(LogLevel.Info)),
+  Layer.provide(Logger.minimumLogLevel(LogLevel.Debug)),
 );
 
 NodeRuntime.runMain(program.pipe(Effect.provide(AppLayer)));

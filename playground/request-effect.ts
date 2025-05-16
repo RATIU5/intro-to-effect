@@ -1,4 +1,4 @@
-import { Effect, Schedule, Duration, Schema } from "effect";
+import { Effect, Schedule, Duration } from "effect";
 import {
   HttpClient,
   HttpClientError,
